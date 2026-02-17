@@ -93,7 +93,7 @@ export class GeminiView extends ItemView {
             throw new Error("API Key not set.");
         }
 
-        const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${apiKey}`;
+        const url = `https://generativelanguage.googleapis.com/v1beta/models/${this.plugin.settings.geminiModel}:generateContent?key=${apiKey}`;
 
         const response = await requestUrl({
             url: url,
