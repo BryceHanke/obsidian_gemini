@@ -1,5 +1,5 @@
 import { App, PluginSettingTab, Setting } from 'obsidian';
-import GeminiWin95Plugin from './main';
+import type GeminiWin95Plugin from './main';
 
 export interface GeminiWin95Settings {
 	geminiApiKey: string;

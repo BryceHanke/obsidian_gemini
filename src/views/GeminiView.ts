@@ -1,5 +1,5 @@
 import { ItemView, WorkspaceLeaf, requestUrl } from "obsidian";
-import GeminiWin95Plugin from "../main";
+import type GeminiWin95Plugin from "../main";
 
 export const VIEW_TYPE_GEMINI = "gemini-win95-view";
 
