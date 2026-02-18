@@ -13,13 +13,13 @@ export default class GeminiWin95Plugin extends Plugin {
 			(leaf) => new GeminiView(leaf, this)
 		);
 
-		this.addRibbonIcon('message-square', 'Gemini Win95 Chat', () => {
+		this.addRibbonIcon('message-square', 'Gemini Chat', () => {
 			this.activateView();
 		});
 
         this.addCommand({
-            id: 'open-gemini-win95-chat',
-            name: 'Open Gemini Win95 Chat',
+            id: 'open-gemini-chat',
+            name: 'Open Gemini Chat',
             callback: () => {
                 this.activateView();
             }
