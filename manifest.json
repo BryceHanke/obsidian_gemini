@@ -1,9 +1,9 @@
 {
 	"id": "obsidian-gemini-win95",
-	"name": "Gemini Win95",
+	"name": "Gemini Chat",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "A Gemini chat integration for Obsidian with a Windows 95 style.",
+	"description": "A Gemini chat integration for Obsidian.",
 	"author": "Jules",
 	"authorUrl": "",
 	"isDesktopOnly": false
